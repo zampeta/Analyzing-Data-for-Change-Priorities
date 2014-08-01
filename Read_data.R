@@ -14,7 +14,7 @@ rm(list=ls())
 #curpath <- getwd()
 
 #Read data
-setwd("C:/Dokumente und Einstellungen/iView_X/Eigene Dateien/Polina/Change Priorities/Data2")
+setwd("/Users/zampeta/Desktop/Data_Analysis/Changing_priorities/Data")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 # Load interesting packages
@@ -64,7 +64,7 @@ for (numb in  1:numbfiles) {
 
 #Compute deeprime
 #import Functions
-setwd("C:/Dokumente und Einstellungen/iView_X/Eigene Dateien/Polina/Analyzing data for Change Priorities")
+setwd("/Users/zampeta/Desktop/Data_Analysis/Changing_priorities/Analyzing-Data-for-Change-Priorities")
 source("deeprime.R")
 alldata <- deeprime(alldata)
 head(alldata)
